@@ -1,8 +1,8 @@
-using bootcamp.Interface;
 using bootcamp.Model;
+using bootcamp.Repo;
 using Microsoft.EntityFrameworkCore;
 
-namespace bootcamp.Repo;
+namespace bootcamp.Interface;
 
 public class RepoFactory(DbContext context) : IRepoFactory
 {

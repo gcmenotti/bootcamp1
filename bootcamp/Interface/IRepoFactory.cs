@@ -1,6 +1,6 @@
-using bootcamp.Interface;
 using bootcamp.Model;
-namespace bootcamp.Repo;
+
+namespace bootcamp.Interface;
 public interface IRepoFactory
 {
     IRepository<Libro> CreateLibroRepository();
